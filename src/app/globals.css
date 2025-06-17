@@ -3,13 +3,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-sora: "Sora", sans-serif;
+  --font-lora: "Lora", serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #4f46e5;
+  --color-secondary: #a5b4fc;
+  --color-neutral-light: #f9fafb;
+  --color-neutral-default: #e5e7eb;
+  --color-neutral-dark: #6b7280;
+  --font-primary: var(--font-lora);
+  --font-secondary: var(--font-sora);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +29,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lora);
 }

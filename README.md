@@ -9,7 +9,7 @@ A demo restaurant ordering and loyalty system built with:
 - Stripe (planned)
 - Email/SMS integrations (planned)
 
-This project is part of a portfolio to demonstrate fullstack development skills.
+A full-stack restaurant ordering and loyalty system. Customers can place orders and earn rewards. Restaurant owners can manage the menu and track customer activity through an admin dashboard.
 
 ## Getting Started
 
